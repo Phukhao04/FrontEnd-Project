@@ -1,0 +1,178 @@
+.superbox {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(185, 226, 222);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containertodo {
+  width: 80%;
+  min-height: 90vh;
+  margin: auto;
+  padding-top: 20px;
+  background-color: rgb(185, 226, 222);
+}
+
+.form-and-tasks {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: salmon;
+}
+
+.form-section {
+  background-color: rgb(102 188 180);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+ 
+}
+
+.pf-icon{
+  font-size: 50px;
+  color: rgb(0, 87, 78);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  font-weight: 800;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: nowrap; 
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.form-field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 200px; 
+}
+
+
+
+.add {
+  width: 25%;
+  padding: 10px;
+  margin: auto;
+  background-color:rgb(236 128 43);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  justify-content: center; 
+  text-align: center;
+}
+.add:hover {
+  background-color: #000000;
+}
+
+.view {
+  width: 25%;
+  padding: 10px;
+  margin: auto;
+  background-color: rgb(236 128 43);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  display: block;
+  justify-content: center; 
+  text-align: center;
+}
+.view:hover {
+  background-color: #000000;
+}
+
+.nav-bar {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 5px;
+  display: flex;
+  background-color: rgb(102 188 180);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%; 
+  flex-wrap: wrap; 
+  gap: 15px; 
+  justify-content: center; 
+  margin-top: 50px;
+  justify-content: flex-start; 
+  
+}
+.todo-list {
+  list-style-type: none;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap; 
+  gap:15px; 
+  justify-content: center; 
+  margin-top: 15px;
+  justify-content: flex-start; 
+  
+}
+.list .text{
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 45%; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  
+
+}
+
+.to-item {
+    width: 180px;
+    height: 180px;
+    background-color: rgb(232 204 173);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(79, 75, 75, 0.5); /* ใช้เงาให้ถูกต้อง */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.delete-btntodo {
+  background-color:  rgb(236 128 43);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btntodo:hover {
+  background-color: #c82333;
+}
+.out{
+    position: fixed;  /* ทำให้ตำแหน่งคงที่ */
+    bottom: 20px;     /* ระยะห่างจากด้านล่าง */
+    left: 30px;       /* ขยับไปทางซ้าย */
+    font-size: 40px;  /* เพิ่มขนาดของสัญลักษณ์ */
+    color: #ffffff;
+    cursor: pointer;
+}
+.out:hover {
+  font-size: 45px;
+  color: #000000;
+  transition: 0.2s; 
+}

@@ -1,0 +1,59 @@
+.supersignup{
+  background-color: rgb(237 197 91);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(237 197 91);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .formsignup-section {
+    background-color: rgb(102 188 180); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+
+  .formsingup-control{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .register .mt-3 {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(236 128 43);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register .mt-3:hover {
+    background-color: rgb(0, 0, 0);
+  }
+  
+  .nav-bar {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  
+  
